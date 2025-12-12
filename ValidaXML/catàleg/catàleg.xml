@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "catàleg.dtd">
+<cataleg_musica>
+  <llista_artistes>
+    <artista id="B1">
+      <nom>Hans Zimmer</nom>
+      <genere>Soundtrack</genere>
+    </artista>
+    <artista id="B2">
+      <nom>Vetusta Morla</nom>
+      <pais>Espanya</pais>
+    </artista>
+    <artista id="B3">
+      <nom>Muse</nom>
+      <pais>Regne Unit</pais>
+      <genere>Rock</genere>
+    </artista>
+  </llista_artistes>
+
+  <llista_albumes>
+    <album id="BL1">
+      <titol>Interstellar (OST)</titol>
+      <any>2014</any>
+      <artistes>
+        <artista_ref ref="B1"/>
+      </artistes>
+    </album>
+    <album id="BL2">
+      <titol>Mapas</titol>
+      <any>2011</any>
+      <artistes>
+        <artista_ref ref="B2"/>
+      </artistes>
+    </album>
+    <album id="BL3">
+      <titol>Black Holes and Revelations</titol>
+      <any>2006</any>
+      <artistes>
+        <artista_ref ref="B3"/>
+      </artistes>
+    </album>
+  </llista_albumes>
+
+  <llista_recomanacions_albumes>
+  </llista_recomanacions_albumes>
+</cataleg_musica>
